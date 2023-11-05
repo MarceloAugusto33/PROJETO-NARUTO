@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@600&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -100,9 +102,8 @@ section.main-lutas{
     width: 100%;
 }
 .flex-container > article > h2{
-    color: #005CB2;
+    color: #FF6F00;
     text-align: center;
-    text-shadow: 1px 1px 0px black;
 }
 .flex-container > article > p{
     font-weight: 500;
@@ -130,7 +131,8 @@ section.main-lutas{
 
 
 .main-assistir{
-    margin: 30px 0px;
+    margin: 50px 0px;
+    
 }
 .flex-container-ass{
     display: flex;
@@ -159,10 +161,12 @@ section.main-lutas{
 }
 .main-personagens{
     margin-top: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
+    border-radius: 15px;
 
 }
 .main-personagens > h2{
-    color: #005CB2;
+    color: #FF6F00;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -190,6 +194,7 @@ section.main-lutas{
 }
 .desc-personagem > h2{
     text-align: center;
+    color: #005CB2;
 }
 #container-personagem{
     display: flex;
@@ -250,6 +255,101 @@ section.main-lutas{
 }
 #minato:hover{
     border: 5px solid #FFD700;
+}
+.fim-personagens{
+    height: 100px;
+}
+.fnaruto{
+    background: white url(../images/wave-haikeiEnaruto.png)no-repeat;
+    background-size: cover;
+}
+.fsasuke{
+    background: white url(../images/wave-haikeiEsasuke.png)no-repeat;
+    background-size: cover;
+}
+.fsakura{
+    background: white url(../images/wave-haikeiEsakura.png)no-repeat;
+    background-size: cover;
+}
+.fkakashi{
+    background: white url(../images/wave-haikeiEkakashi.png)no-repeat;
+    background-size: cover;
+}
+.fmadara{
+    background: white url(../images/wave-haikeiEmadara.png)no-repeat;
+    background-size: cover;
+}
+.fminato{
+    background: white url(../images/wave-haikeiEminato.png)no-repeat;
+    background-size: cover;
+}
+.flex-container-arcos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-arcos > h2{
+    text-align: center;
+    color: #FF6F00;
+    margin: 20px 0px;
+}
+.arco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.169);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.155);
+    border-radius: 5px;
+}
+.arco > img{
+    width: 40%;
+    object-fit: cover;
+}
+.arco > article > h2,p{
+    padding: 10px;
+}
+.arco > article > h2{
+    color: #005CB2;
+}
+footer{
+    background-color: #FF6F00;
+    text-align: center;
+    color: white;
+}
+.nav-bar > h2{
+    color: white;
+}
+footer > .nav-bar{
+    flex-direction: column;
+}
+footer > .nav-bar > ul > li > .nav-link{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    transition: 0.5s;
+}
+footer > .nav-bar > ul > li > .nav-link:hover{
+    text-decoration: underline;
+    color: rgb(206, 205, 205);
+}
+.pointer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #005CB2;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.pointer > span{
+    color: white;
+}
+footer > p{
+    background-color: #d4620a;
 }
 
 

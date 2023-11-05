@@ -9,12 +9,37 @@ let img = document.querySelector('#personagem');
 let nomePersonagem = document.querySelector('#nome-perso')
 let descPersonagem = document.querySelector('#desc-perso')
 let corpo = document.querySelector('#container-personagem')
+let fimcorpo = document.querySelector('.fim-personagens')
+
+let pointer = document.querySelector('.pointer')
+
+let body = document.querySelector('body')
+
+document.addEventListener('scroll',rolar);
+function rolar() {
+    let atual_posicao = window.scrollY;
+    if (atual_posicao > 200){
+        pointer.style.display = "flex"
+    } else{
+        pointer.style.display = "none"
+    }
+}
+
+pointer.addEventListener('click',function() {
+    location.href = "#"
+})
 
 cardNaruto.addEventListener('click',function() {
     img.setAttribute('src','assets/images/NARUTO-CORPOCOMPLETO.webp');
     nomePersonagem.textContent = "Naruto Uzumaki";
     nomePersonagem.style.color = "#FF6F00";
     descPersonagem.textContent = "O protagonista da série, conhecido por seu desejo de se tornar Hokage e por sua determinação inabalável. Ele possui uma natureza otimista e a habilidade de usar o chakra da raposa de nove caudas, Kurama.";
+    fimcorpo.classList.add('fnaruto')
+    fimcorpo.classList.remove('fsakura')
+    fimcorpo.classList.remove('fsasuke')
+    fimcorpo.classList.remove('fkakashi')
+    fimcorpo.classList.remove('fmadara')
+    fimcorpo.classList.remove('fminato')
     corpo.classList.remove('sasuke');
     corpo.classList.remove('sakura');
     corpo.classList.remove('kakashi');
@@ -33,6 +58,12 @@ cardSasuke.addEventListener('click',function() {
     corpo.classList.remove('minato');
     corpo.classList.remove('naruto');
     corpo.classList.add('sasuke');
+    fimcorpo.classList.remove('fnaruto')
+    fimcorpo.classList.remove('fsakura')
+    fimcorpo.classList.add('fsasuke')
+    fimcorpo.classList.remove('fkakashi')
+    fimcorpo.classList.remove('fmadara')
+    fimcorpo.classList.remove('fminato')
 })
 cardSakura.addEventListener('click',function() {
     img.setAttribute('src','assets/images/SAKURA-CORPOCOMPLETO.webp');
@@ -45,6 +76,12 @@ cardSakura.addEventListener('click',function() {
     corpo.classList.remove('naruto');
     corpo.classList.remove('sasuke');
     corpo.classList.add('sakura');
+    fimcorpo.classList.remove('fnaruto')
+    fimcorpo.classList.add('fsakura')
+    fimcorpo.classList.remove('fsasuke')
+    fimcorpo.classList.remove('fkakashi')
+    fimcorpo.classList.remove('fmadara')
+    fimcorpo.classList.remove('fminato')
 })
 cardKakashi.addEventListener('click',function() {
     img.setAttribute('src','assets/images/KAKASHI-CORPOCOMPLETO.webp')
@@ -57,6 +94,12 @@ cardKakashi.addEventListener('click',function() {
     corpo.classList.remove('minato')
     corpo.classList.remove('naruto')
     corpo.classList.remove('sasuke')
+    fimcorpo.classList.remove('fnaruto')
+    fimcorpo.classList.remove('fsakura')
+    fimcorpo.classList.remove('fsasuke')
+    fimcorpo.classList.add('fkakashi')
+    fimcorpo.classList.remove('fmadara')
+    fimcorpo.classList.remove('fminato')
 })
 cardMadara.addEventListener('click',function() {
     img.setAttribute('src','assets/images/MADARA-CORPOCOMPLETO.webp')
@@ -69,6 +112,12 @@ cardMadara.addEventListener('click',function() {
     corpo.classList.remove('minato')
     corpo.classList.remove('naruto')
     corpo.classList.remove('sasuke')
+    fimcorpo.classList.remove('fnaruto')
+    fimcorpo.classList.remove('fsakura')
+    fimcorpo.classList.remove('fsasuke')
+    fimcorpo.classList.remove('fkakashi')
+    fimcorpo.classList.add('fmadara')
+    fimcorpo.classList.remove('fminato')
 })
 cardMinato.addEventListener('click',function() {
     img.setAttribute('src','assets/images/MINATO-CORPOCOMPLETO.webp')
@@ -81,4 +130,10 @@ cardMinato.addEventListener('click',function() {
     corpo.classList.add('minato')
     corpo.classList.remove('naruto')
     corpo.classList.remove('sasuke')
+    fimcorpo.classList.remove('fnaruto')
+    fimcorpo.classList.remove('fsakura')
+    fimcorpo.classList.remove('fsasuke')
+    fimcorpo.classList.remove('fkakashi')
+    fimcorpo.classList.remove('fmadara')
+    fimcorpo.classList.add('fminato')
 })
