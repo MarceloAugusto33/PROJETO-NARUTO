@@ -15,10 +15,25 @@ let pointer = document.querySelector('.pointer')
 
 let body = document.querySelector('body')
 
+let links = document.querySelector("#sair")
+
+function openNav(){
+    document.querySelector('.overlay').style.width = "80%"
+}
+function closeNav(){
+    document.querySelector('.overlay').style.width = "0%"
+}
+
+links.addEventListener('click',function(){
+    setTimeout(function() {
+        document.querySelector('.overlay').style.width = "0%"
+    },200)
+})
+
 document.addEventListener('scroll',rolar);
 function rolar() {
     let atual_posicao = window.scrollY;
-    if (atual_posicao > 200){
+    if (atual_posicao > 300){
         pointer.style.display = "flex"
     } else{
         pointer.style.display = "none"

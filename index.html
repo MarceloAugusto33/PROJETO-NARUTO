@@ -10,43 +10,47 @@
 </head>
 <body>
     <section class="hero">
+        <div class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content" id="sair">
+                <a href="#curi">Curiosidades</a>
+                <a href="#ass">Onde Assistir</a>
+                <a href="#per">Personagens</a>
+                <a href="#arco">Arcos</a>
+            </div>
+        </div>
         <header>
             <nav class="nav-bar">
-                <img src="assets/images/2560px-Studio_Pierrot_logo.svg.png" alt="">
-                <span class="material-symbols-outlined">menu</span>
-                <ul class="menu">
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                </ul>
+                <img src="assets/images/2560px-Studio_Pierrot_logo.svg.png" alt="LOGO DA EMPRESA CRIADORA DO NARUTO">
+                <span class="material-symbols-outlined" onclick="openNav()">menu</span>
             </nav>
         </header>
         <aside>
             <div id="hero-flex">
-                <img id="logo" src="assets/images/6dc928dbf990b2f0d12018c19f9c0332.png" alt="">
+                <img id="logo" src="assets/images/6dc928dbf990b2f0d12018c19f9c0332.png" alt="LOGO NARUTO Shippuden">
                 <h1>A jornada épica além da juventude.</h1>
                 <p>Após os eventos de "Naruto Shippuden", a história segue o crescimento e as novas aventuras de Naruto Uzumaki e seus amigos, enquanto enfrentam desafios cada vez maiores em busca de paz e reconhecimento. Novos vilões surgem, aliados se tornam mais fortes, e o legado dos ninjas é testado ao máximo, revelando o verdadeiro significado de sacrifício, amizade e superação.</p>
-                <button>VER AGORA!</button>
+                <a href="https://www.netflix.com/br/title/80000603" target="_blank"><button>VER AGORA!</button></a>
             </div>
         </aside>
     </section>
     <main>
-        <section class="main-lutas">
+        <section class="main-lutas" id="curi">
             <div class="flex-container">
-                <img src="assets/images/644171.jpg" alt="">
-                <img src="assets/images/1329963.jpeg" alt="">
+                <img src="assets/images/644171.jpg" alt="FOTO DA GUERRA NINJA">
+                <img src="assets/images/1329963.jpeg" alt="FOTO DO NARUTO VS SASUKE">
                 <article>
                     <h2>CONFRONTOS ÉPICOS</h2>
                     <hr class="linha" id="conf"></hr>
                     <p>Os confrontos épicos de 'Naruto' vão muito além de simples batalhas. São embates carregados de emoção, representando não apenas força física, mas também choques de ideais e valores. Cada confronto é uma jornada pessoal, onde as batalhas refletem laços de amizade, redenção e o verdadeiro significado do poder.</p>
-                    <button>CURIOSIDADE</button>
+                    <a href="https://pt.wikipedia.org/wiki/Naruto" target="_blank"><button>CURIOSIDADE</button></a>
                 </article>
 
             </div>
         </section>
-        <section class="main-assistir">
+        <section class="main-assistir" id="ass">
             <div class="flex-container-ass">
-                <img src="assets/images/NARUTO-PNG.png" alt="">
+                <img src="assets/images/NARUTO-PNG.png" alt="FOTO DO NARUTO">
                 <div class="desc">
                     <h2>ASSISTIR EM</h2>
                     <ul>
@@ -54,32 +58,32 @@
                         <li><strong>Crunchyroll</strong>: Este é um serviço de streaming especializado em animes. "Naruto" e "Naruto Shippuden" estão disponíveis no Crunchyroll. </li>
                     </ul>
                     <article class="flex">
-                        <img src="assets/images/netflix.png" alt="">
-                        <img src="assets/images/crunchyroll.png" alt="">
+                        <a href="https://www.netflix.com/br/title/80000603" target="_blank"><img src="assets/images/netflix.png" alt="LOGO NETFLIX"></a>
+                        <a href="https://www.crunchyroll.com/pt-br/series/GYQ4MW246/naruto-shippuden?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Consideration_LATAM_BR_Generic-Titles_SVOD&utm_term=naruto&referrer=google_paid_cr_CR-Paid_Google_Web_Consideration_LATAM_BR_Generic-Titles_SVOD&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMeazBGyaiPVXohqvCHyq0gUJ1a6P_jOI8v-2W25Lfkgj0PD-y2EI0aAnI_EALw_wcB" target="_blank"><img src="assets/images/crunchyroll.png" alt="LOGO CRUNCHYROLL"></a>
                     </article>
                 </div>
             </div>
         </section>
-        <section class="main-personagens">
+        <section class="main-personagens" id="per">
             <h2>PERSONAGENS</h2>
             <div class="flex-container-perso">
                 <div id="naruto" class="card">
-                    <img src="assets/images/NARUTO-pfp.jpg" alt="">
+                    <img src="assets/images/NARUTO-pfp.jpg" alt="CARD DO NARUTO">
                 </div>
                 <div id="sasuke" class="card">
-                    <img src="assets/images/SASUKE-pfp.jpg" alt="">
+                    <img src="assets/images/SASUKE-pfp.jpg" alt="CARD DO SASUKE">
                 </div>
                 <div id="sakura" class="card">
-                    <img src="assets/images/SAKURA-pfp.jpg" alt="">
+                    <img src="assets/images/SAKURA-pfp.jpg" alt="CARD DA SAKURA">
                 </div>
                 <div id="kakashi" class="card">
-                    <img src="assets/images/KAKASHI-pfp.jpg" alt="">
+                    <img src="assets/images/KAKASHI-pfp.jpg" alt="CARD DO KAKASHI">
                 </div>
                 <div id="madara" class="card">
-                    <img src="assets/images/MADARA-pfp.jpg" alt="">
+                    <img src="assets/images/MADARA-pfp.jpg" alt="CARD DO MADARA">
                 </div>
                 <div id="minato" class="card">
-                    <img src="assets/images/MINATO-pfp.jpg" alt="">
+                    <img src="assets/images/MINATO-pfp.jpg" alt="CARD DO MINATO">
                 </div>
             </div>
             <div class="desc-personagem">
@@ -95,32 +99,32 @@
         </section>
         <section class="fim-personagens">
         </section>
-        <section class="main-arcos">
+        <section class="main-arcos" id="arco">
             <h2>MELHORES ARCOS</h2>
             <div class="flex-container-arcos">
                 <div class="arco">
-                    <img src="assets/images/CAPA-exame chunin.webp" alt="">
+                    <img src="assets/images/CAPA-exame chunin.webp" alt="CAPA DO MANGÁ DO ARCO EXAME CHUNIN">
                     <article>
                         <h2>Exame Chunin</h2>
                         <p>Este é um dos primeiros grandes arcos da série, onde os genins são postos à prova para se tornarem chūnins. Ele mostra várias batalhas emocionantes e introduz personagens essenciais.</p>
                     </article>
                 </div>
-                <div class="arco">
-                    <img src="assets/images/CAPA-invaso de konoha.webp" alt="">
+                <div class="arcon">
+                    <img src="assets/images/CAPA-invaso de konoha.webp" alt="CAPA DO MANGÁ DO ARCO INVASÃO DE KONOHA">
                     <article>
                         <h2>Invasão de Konoha</h2>
                         <p> Este arco é marcado pela invasão da vila de Konoha por Orochimaru e suas forças. É um momento crucial na série e apresenta algumas das batalhas mais intensas.</p>
                     </article>
                 </div>
                 <div class="arco">
-                    <img src="assets/images/CAPA-Guerra.jpg" alt="">
+                    <img src="assets/images/CAPA-Guerra.jpg" alt="CAPA DO MANGÁ DO ARCO DA GUERRA">
                     <article>
                         <h2>Quarta Guerra Ninja</h2>
                         <p>Este é um arco massivo que engloba a guerra entre as forças aliadas de várias vilas e a Akatsuki. Apresenta batalhas intensas, revelações emocionantes e o desenvolvimento de muitos personagens.</p>
                     </article>
                 </div>
-                <div class="arco">
-                    <img src="assets/images/CAPA-FInal.jpg" alt="">
+                <div class="arcon">
+                    <img src="assets/images/CAPA-FInal.jpg" alt="CAPA DO MANGÁ DO ARCO FINAL">
                     <article>
                         <h2>Arco Final</h2>
                         <p>Este é o clímax da série, com a batalha final entre Naruto e Sasuke. É um ponto crucial na história e encerra a narrativa principal de uma maneira poderosa.</p>

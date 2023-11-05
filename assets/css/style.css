@@ -37,9 +37,6 @@ header{
 .nav-bar > ul{
     list-style: none;
 }
-.menu{
-    display: none;
-}
 #hero-flex{
     padding: 1.5rem;
 }
@@ -56,7 +53,7 @@ header{
     margin: 20px 0px;
     color: white;
 }
-#hero-flex > button{
+#hero-flex > a >button{
     margin: 20px 0px;
     width: 100%;
     height: 45px;
@@ -66,7 +63,7 @@ header{
     border-radius: 7px;
     transition: 0.5s;
 }
-#hero-flex > button:hover{
+#hero-flex >a > button:hover{
     background-color: #003d75;
 }
 /*        
@@ -110,7 +107,7 @@ section.main-lutas{
     margin: 10px 0px;
     text-align: center;
 }
-.flex-container > article > button{
+.flex-container > article > a > button{
     width: 50%;
     height: 50px;
     display: block;
@@ -122,7 +119,10 @@ section.main-lutas{
     transition: 0.5s;
     margin-top: 10px;
 }
-.flex-container > article > button:hover{
+a{
+    text-decoration: none;
+}
+.flex-container > article > a> button:hover{
     background-color: #ac4a00;
 }
 
@@ -151,8 +151,8 @@ section.main-lutas{
     align-items: center;
     gap: 10%;
 }
-.flex > img{
-    width: 40%;
+.flex img{
+    width: 70%;
     object-fit: cover;
 }
 .linha{
@@ -351,5 +351,64 @@ footer > .nav-bar > ul > li > .nav-link:hover{
 footer > p{
     background-color: #d4620a;
 }
+.arcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.169);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.155);
+    border-radius: 5px;
+}
+.arcon > img{
+    width: 40%;
+    object-fit: cover;
+}
+.arcon > article > h2,p{
+    padding: 10px;
+}
+.arcon > article > h2{
+    color: #005CB2;
+}
+.overlay{
+    width: 0;
+    height: 100%;
+    background-color: #FF6F00;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+.overlay-content{
+    position: relative;
+    top:25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 
+}
+.overlay-content a{
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 25px;
+}
+.overlay a:hover, .overlay a:focus{
+    color: rgb(166, 166, 166);
+}
+.overlay .closebtn{
+    position: absolute;
+    top: 4%;
+    right: 45px;
+    font-size: 60px;
+    color: white;
+}
 
