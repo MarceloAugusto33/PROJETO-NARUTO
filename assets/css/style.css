@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
 body{
     width: 100%;
@@ -179,7 +181,75 @@ section.main-lutas{
     margin-top: 10px;
 
 }
+
 .flex-container-perso > div > img{
     width: 100%;
 }
+.desc-personagem{
+    margin-top: 20px;
+}
+.desc-personagem > h2{
+    text-align: center;
+}
+#container-personagem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 6%;
+}
+#personagem{
+    width: 40%;
+    object-fit: cover;
+}
+.naruto{
+    background: white url(../images/wave-haikeinaruto.png) center center no-repeat;
+    background-size: cover;
+}
+.sasuke{
+    background: white url(../images/wave-haikeisasuke.png) center center no-repeat;
+    background-size: cover;
+}
+.sakura{
+    background: white url(../images/wave-haikeisakura.png) center center no-repeat;
+    background-size: cover;
+}
+.kakashi{
+    background: white url(../images/wave-haikeikakashi.png) center center no-repeat;
+    background-size: cover;
+}
+.madara{
+    background: white url(../images/wave-haikeimadara.png) center center no-repeat;
+    background-size: cover;
+}
+.minato{
+    background: white url(../images/wave-haikeiminato.png) center center no-repeat;
+    background-size: cover;
+}
+#nome-perso{
+    padding: 10px;
+}
+#desc-perso{
+    text-align: justify;
+    padding: 10px;
+}
+#naruto:hover{
+    border: 5px solid orange;
+}
+#sasuke:hover{
+    border: 5px solid #005CB2;
+}
+#sakura:hover{
+    border: 5px solid #FF69B4;
+}
+#kakashi:hover{
+    border: 5px solid #02376b;
+}
+#madara:hover{
+    border: 5px solid #8B0000;
+}
+#minato:hover{
+    border: 5px solid #FFD700;
+}
+
 
