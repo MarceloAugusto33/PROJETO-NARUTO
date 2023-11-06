@@ -1,0 +1,120 @@
+@media screen and (min-width:768px){
+    body{
+        font-size: 1em;
+    }
+    #hero-flex{
+        width: 60%;
+    }
+    #hero-flex > img{
+        width: 70%;
+    }
+    #hero-flex > button{
+        margin-top: 5px;
+    }
+    .flex-container{
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    .flex-container > img{
+        width: 30%;
+        object-fit: cover;
+    }
+    .flex-container > article{
+        margin-top: 15px;
+        width: 30%;
+    }
+    .flex-container-ass > img{
+        width: 50%;
+        height: 400px;
+        object-fit: contain;
+    }
+    .flex > a > img{
+        width: 40%;
+    }
+    .flex-container-perso{
+        gap: 2%;
+        justify-content: center;
+    }
+    .flex-container-perso > div{
+        width: 12%;
+    }
+    .fim-personagens{
+        height: 400px;
+    }
+    #container-personagem{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        margin-top: 0;
+    }
+    #container-personagem > img{
+        padding: 50px;
+        font-size: 0.8em;
+    }
+    #personagem{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .naruto{
+        background-image: none;
+    }
+    .sasuke{
+        background-image: none;
+    }
+    .sakura{
+        background-image: none;
+    }
+    .kakashi{
+        background-image: none;
+    }
+    .madara{
+        background-image: none;
+    }
+    .minato{
+        background-image: none;
+    }
+    .fim-personagens{
+        background-color: #FF6F00;
+        height: 100px;
+    }
+    .desc-personagem{
+        margin-top: 0;
+    }
+    #container-personagem > article > h2{
+        color: #FF6F00;
+    }
+    .flex-container-arcos{
+        justify-content:center ;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+    }
+    .arco{
+        width: 45%;
+    }
+    .arcon{
+        width: 45%;
+    }
+    .nav-bar > span{
+        display: none;
+    }
+    .overlay{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .menu > a{
+        margin: 0px 10px;
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s;
+    }
+    .menu > a:hover{
+        color: #FF6F00;
+    }
+
+}
