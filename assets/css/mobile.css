@@ -11,6 +11,8 @@ html{
 body{
     width: 100%;
     height: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
 }
 .menu{
     display: none;
@@ -152,7 +154,7 @@ a{
 .flex{
     display: flex;
     align-items: center;
-    gap: 10%;
+    gap: 2%;
 }
 .flex img{
     width: 70%;
@@ -165,7 +167,8 @@ a{
 .main-personagens{
     margin-top: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
 
 }
 .main-personagens > h2{
@@ -192,6 +195,7 @@ a{
 }
 .desc-personagem{
     margin-top: 20px;
+    color: black;
 }
 .desc-personagem > h2{
     text-align: center;
@@ -259,29 +263,30 @@ a{
 }
 .fim-personagens{
     height: 100px;
+    background-color: rgb(29, 29, 29);
 }
 .fnaruto{
-    background: white url(../images/wave-haikeiEnaruto.png)no-repeat;
+    background: white url(../images/wave-haikei.png)no-repeat;
     background-size: cover;
 }
 .fsasuke{
-    background: white url(../images/wave-haikeiEsasuke.png)no-repeat;
+    background: white url(../images/wave-haikei\ \(1\).png)no-repeat;
     background-size: cover;
 }
 .fsakura{
-    background: white url(../images/wave-haikeiEsakura.png)no-repeat;
+    background: white url(../images/wave-haikei\ \(2\).png)no-repeat;
     background-size: cover;
 }
 .fkakashi{
-    background: white url(../images/wave-haikeiEkakashi.png)no-repeat;
+    background: white url(../images/wave-haikei\ \(3\).png)no-repeat;
     background-size: cover;
 }
 .fmadara{
-    background: white url(../images/wave-haikeiEmadara.png)no-repeat;
+    background: white url(../images/wave-haikei\ \(4\).png)no-repeat;
     background-size: cover;
 }
 .fminato{
-    background: white url(../images/wave-haikeiEminato.png)no-repeat;
+    background: white url(../images/wave-haikei\ \(5\).png)no-repeat;
     background-size: cover;
 }
 .flex-container-arcos{
@@ -418,5 +423,72 @@ footer > p{
 .fim-personagens{
     background-color: #FF6F00;
     height: 100px;
+}
+#fotosasuke{
+    display: none;
+}
+body{
+    font-size: 1em;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+main{
+    background-color: rgb(29, 29, 29);
+}
+.main-wallpaper {
+    margin-bottom: 50px;
+}
+.main-wallpaper h2,h3{
+    text-align: center;
+}
+.main-wallpaper > h2{
+    color: #FF6F00;
+    margin: 40px 0px;
+}
+.main-wallpaper > h3{
+    margin: 10px 0px 40px 0px;
+}
+.flex-wall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.momentos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+.momentos > img{
+    width: 100%;
+    border: 1px solid #005CB2;
+    border-radius: 12px;
+}
+.botao{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#netflix{
+    background-color: black;
+}
+#crun{
+    background-color: white;
+    margin-right: 10px;
+}
+.botao > a > img{
+    width: 100%;
+    height: 60px;
 }
 

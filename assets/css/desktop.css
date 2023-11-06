@@ -1,9 +1,23 @@
 @media screen and (min-width:768px){
     body{
         font-size: 1em;
+        background-color: rgb(29, 29, 29);
+        color: white;
+    }
+    main{
+        background-color: rgb(29, 29, 29);
+    }
+    .main-lutas{
+        padding: 1.5rem;
+    }
+    .main-assistir{
+        padding: 1.5rem;
+    }
+    .main-arcos{
+        padding: 1.5rem;
     }
     #hero-flex{
-        width: 60%;
+        width: 50%;
     }
     #hero-flex > img{
         width: 70%;
@@ -32,7 +46,6 @@
         width: 40%;
     }
     .flex-container-perso{
-        gap: 2%;
         justify-content: center;
     }
     .flex-container-perso > div{
@@ -115,6 +128,24 @@
     }
     .menu > a:hover{
         color: #FF6F00;
+    }
+    .fim-personagens{
+        color: black;
+    }
+    #container-personagem{
+        background-color: white;
+        color: black;
+    }
+    #fotosasuke{
+        display: block;
+    }
+    .momentos{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    
     }
 
 }

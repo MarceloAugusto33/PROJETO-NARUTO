@@ -30,6 +30,14 @@ links.addEventListener('click',function(){
     },200)
 })
 
+function netflix() {
+    location.href = "https://www.netflix.com/br/title/80000603"
+}
+
+function crun() {
+    location.href = "https://www.crunchyroll.com/pt-br/series/GYQ4MW246/naruto-shippuden?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Consideration_LATAM_BR_Generic-Titles_SVOD&utm_term=naruto&referrer=google_paid_cr_CR-Paid_Google_Web_Consideration_LATAM_BR_Generic-Titles_SVOD&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMeazBGyaiPVXohqvCHyq0gUJ1a6P_jOI8v-2W25Lfkgj0PD-y2EI0aAnI_EALw_wcB"
+}
+
 document.addEventListener('scroll',rolar);
 function rolar() {
     let atual_posicao = window.scrollY;
