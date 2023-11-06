@@ -1,9 +1,10 @@
 <h1 align="center">
-    <img src="assets/images/6dc928dbf990b2f0d12018c19f9c0332.png">
+    <img src="assets/images/Captura de tela 2023-11-06 191403.png">
     <p>Landing Page Naruto🦊</p>
 </h1>
 
 <h1>👉<a href="https://marceloaugusto33.github.io/PROJETO-NARUTO/">Projeto em Ação</a></h1>
+
 ## 📕 Sobre
 Este projeto é uma landing page dedicada ao mundo de Naruto, o popular anime e mangá criado por Masashi Kishimoto. Desenvolvida com tecnologias **web, incluindo HTML, CSS e JavaScript**, a página destina-se a oferecer uma experiência visualmente atraente, destacando elementos icônicos e informativos relacionados ao universo de Naruto. Ao explorar esta página, os fãs e entusiastas poderão encontrar uma apresentação envolvente, contendo detalhes sobre personagens, histórias, jutsus (técnicas ninja) e curiosidades fascinantes sobre este universo fictício.
 
