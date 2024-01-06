@@ -1,67 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@600&display=swap');
-html{
+
+html {
     scroll-behavior: smooth;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
     background-color: rgb(29, 29, 29);
     color: white;
 }
-button{
+
+button {
     cursor: pointer;
 }
-.menu{
+
+.menu {
     display: none;
 }
-h1{
+
+h1 {
     font-size: 1.6em;
 }
-p{
+
+p {
     font-size: 1.1em;
 }
-.hero{
+
+.hero {
     background: white url(../images/605599.jpg) no-repeat center center;
     background-size: cover;
 }
-header{
+
+header {
     background-color: transparent;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
 }
-.nav-bar > img{
+
+.nav-bar>img {
     width: 100px;
 }
-.nav-bar > ul{
+
+.nav-bar>ul {
     list-style: none;
 }
-#hero-flex{
+
+#hero-flex {
     padding: 1.5rem;
 }
-#hero-flex > h1{
+
+#hero-flex>h1 {
     color: #FF6F00;
     margin: 20px 0px;
     text-shadow: 1px 1px 0px black;
 }
-#logo{
+
+#logo {
     width: 100%;
 }
-#hero-flex > p{
+
+#hero-flex>p {
     font-size: 1.1em;
     margin: 20px 0px;
     color: white;
 }
-#hero-flex > a >button{
+
+#hero-flex>a>button {
     margin: 20px 0px;
     width: 100%;
     height: 45px;
@@ -71,51 +88,51 @@ header{
     border-radius: 7px;
     transition: 0.5s;
 }
-#hero-flex >a > button:hover{
+
+#hero-flex>a>button:hover {
     background-color: #003d75;
 }
-/*        
 
+/*  Main  */
 
-
-Main         
-
-
-
-
-*/
-
-main{
+main {
     border-radius: 4px;
     background-color: white;
 }
-section.main-lutas{
+
+section.main-lutas {
     margin-top: 30px;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
     justify-content: center;
 }
-.flex-container > img{
+
+.flex-container>img {
     width: 45%;
     object-fit: cover;
 }
-.flex-container > article{
+
+.flex-container>article {
     margin-top: 15px;
     width: 100%;
 }
-.flex-container > article > h2{
+
+.flex-container>article>h2 {
     color: #FF6F00;
     text-align: center;
 }
-.flex-container > article > p{
+
+.flex-container>article>p {
     font-weight: 500;
     margin: 10px 0px;
     text-align: center;
 }
-.flex-container > article > a > button{
+
+.flex-container>article>a>button {
     width: 50%;
     height: 50px;
     display: block;
@@ -127,65 +144,73 @@ section.main-lutas{
     transition: 0.5s;
     margin-top: 10px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.flex-container > article > a> button:hover{
+
+.flex-container>article>a>button:hover {
     background-color: #ac4a00;
 }
 
-
-
-
-
-.main-assistir{
+.main-assistir {
     margin: 50px 0px;
-    
+
 }
-.flex-container-ass{
+
+.flex-container-ass {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.desc > h2{
+
+.desc>h2 {
     color: #FF6F00;
     margin: 20px 0px;
 }
-.flex-container-ass > img{
+
+.flex-container-ass>img {
     width: 40%;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
     gap: 2%;
 }
-.flex img{
+
+.flex img {
     width: 70%;
     object-fit: cover;
 }
-.linha{
+
+.linha {
     width: 50%;
     margin: auto;
 }
-.main-personagens{
+
+.main-personagens {
     margin-top: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
     border-radius: 15px 15px 0px 0px;
     background-color: white;
 
 }
-.main-personagens > h2{
+
+.main-personagens>h2 {
     color: #FF6F00;
     text-align: center;
     margin-bottom: 10px;
 }
-.flex-container-perso{
+
+.flex-container-perso {
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
     margin: 0 10px;
 }
-.flex-container-perso > div{
+
+.flex-container-perso>div {
     width: 30%;
     overflow: hidden;
     border: 1px solid black;
@@ -193,115 +218,143 @@ a{
     margin-top: 10px;
 }
 
-.flex-container-perso > div > img{
+.flex-container-perso>div>img {
     width: 100%;
 }
-.desc-personagem{
+
+.desc-personagem {
     margin-top: 20px;
     color: black;
 }
-.desc-personagem > h2{
+
+.desc-personagem>h2 {
     text-align: center;
     color: #005CB2;
 }
-#container-personagem{
+
+#container-personagem {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
     gap: 6%;
 }
-#personagem{
+
+#personagem {
     width: 40%;
     object-fit: cover;
 }
-.naruto{
+
+.naruto {
     background: white url(../images/wave-haikeinaruto.png) center center no-repeat;
     background-size: cover;
 }
-.sasuke{
+
+.sasuke {
     background: white url(../images/wave-haikeisasuke.png) center center no-repeat;
     background-size: cover;
 }
-.sakura{
+
+.sakura {
     background: white url(../images/wave-haikeisakura.png) center center no-repeat;
     background-size: cover;
 }
-.kakashi{
+
+.kakashi {
     background: white url(../images/wave-haikeikakashi.png) center center no-repeat;
     background-size: cover;
 }
-.madara{
+
+.madara {
     background: white url(../images/wave-haikeimadara.png) center center no-repeat;
     background-size: cover;
 }
-.minato{
+
+.minato {
     background: white url(../images/wave-haikeiminato.png) center center no-repeat;
     background-size: cover;
 }
-#nome-perso{
+
+#nome-perso {
     padding: 10px;
 }
-#desc-perso{
+
+#desc-perso {
     text-align: justify;
     padding: 10px;
 }
-#naruto:hover{
+
+#naruto:hover {
     border: 5px solid orange;
 }
-#sasuke:hover{
+
+#sasuke:hover {
     border: 5px solid #005CB2;
 }
-#sakura:hover{
+
+#sakura:hover {
     border: 5px solid #FF69B4;
 }
-#kakashi:hover{
+
+#kakashi:hover {
     border: 5px solid #02376b;
 }
-#madara:hover{
+
+#madara:hover {
     border: 5px solid #8B0000;
 }
-#minato:hover{
+
+#minato:hover {
     border: 5px solid #FFD700;
 }
-.fim-personagens{
+
+.fim-personagens {
     height: 100px;
     background-color: rgb(29, 29, 29);
 }
-.fnaruto{
+
+.fnaruto {
     background: white url(../images/wave-haikei.png)no-repeat;
     background-size: cover;
 }
-.fsasuke{
+
+.fsasuke {
     background: white url(../images/wave-haikei\ \(1\).png)no-repeat;
     background-size: cover;
 }
-.fsakura{
+
+.fsakura {
     background: white url(../images/wave-haikei\ \(2\).png)no-repeat;
     background-size: cover;
 }
-.fkakashi{
+
+.fkakashi {
     background: white url(../images/wave-haikei\ \(3\).png)no-repeat;
     background-size: cover;
 }
-.fmadara{
+
+.fmadara {
     background: white url(../images/wave-haikei\ \(4\).png)no-repeat;
     background-size: cover;
 }
-.fminato{
+
+.fminato {
     background: white url(../images/wave-haikei\ \(5\).png)no-repeat;
     background-size: cover;
 }
-.flex-container-arcos{
+
+.flex-container-arcos {
     display: flex;
     flex-wrap: wrap;
 }
-.main-arcos > h2{
+
+.main-arcos>h2 {
     text-align: center;
     color: #FF6F00;
     margin: 20px 0px;
 }
-.arco{
+
+.arco {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -311,37 +364,62 @@ a{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.155);
     border-radius: 5px;
 }
-.arco > img{
+
+.arco>img {
     width: 40%;
     object-fit: cover;
 }
-.arco > article > h2,p{
+
+.arco>article>h2,
+p {
     padding: 10px;
 }
-.arco > article > h2{
+
+.arco>article>h2 {
     color: #005CB2;
 }
-footer{
+
+footer {
     background-color: #FF6F00;
     text-align: center;
     color: white;
 }
-.nav-bar > h2{
+
+.nav-bar>h2 {
     color: white;
 }
-footer > .nav-bar{
+
+footer>.nav-bar {
     flex-direction: column;
 }
-footer > .nav-bar > ul > li > .nav-link{
+
+footer>.nav-bar>ul>li>.nav-link {
     text-decoration: none;
     color: rgb(255, 254, 254);
     transition: 0.5s;
 }
-footer > .nav-bar > ul > li > .nav-link:hover{
+
+footer>.nav-bar>ul>li>.nav-link:hover {
     text-decoration: underline;
     color: rgb(206, 205, 205);
 }
-.btn-topo{
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    cursor: pointer;
+    animation: top 0.7s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 70%;
+}
+
+.btn-topo {
     display: none;
     align-items: center;
     justify-content: center;
@@ -354,13 +432,16 @@ footer > .nav-bar > ul > li > .nav-link:hover{
     bottom: 10px;
     cursor: pointer;
 }
-.btn-topo > span{
+
+.btn-topo>span {
     color: white;
 }
-footer > p{
+
+footer>p {
     background-color: #d4620a;
 }
-.arcon{
+
+.arcon {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -371,17 +452,22 @@ footer > p{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.155);
     border-radius: 5px;
 }
-.arcon > img{
+
+.arcon>img {
     width: 40%;
     object-fit: cover;
 }
-.arcon > article > h2,p{
+
+.arcon>article>h2,
+p {
     padding: 10px;
 }
-.arcon > article > h2{
+
+.arcon>article>h2 {
     color: #005CB2;
 }
-.overlay{
+
+.overlay {
     width: 0;
     height: 100%;
     background-color: #FF6F00;
@@ -392,73 +478,91 @@ footer > p{
     overflow-x: hidden;
     transition: all 0.5s;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     cursor: pointer;
 }
-.overlay-content{
+
+.overlay-content {
     position: relative;
-    top:25%;
+    top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 
 }
-.overlay-content a{
+
+.overlay-content a {
     padding: 8px;
     text-decoration: none;
     color: white;
     display: block;
     font-size: 25px;
 }
-.overlay a:hover, .overlay a:focus{
+
+.overlay a:hover,
+.overlay a:focus {
     color: rgb(166, 166, 166);
 }
-.overlay .closebtn{
+
+.overlay .closebtn {
     position: absolute;
     top: 4%;
     right: 45px;
     font-size: 60px;
     color: white;
 }
-#container-personagem > article > h2{
+
+#container-personagem>article>h2 {
     color: #FF6F00;
 }
-.fim-personagens{
+
+.fim-personagens {
     background-color: #FF6F00;
     height: 100px;
 }
-#fotosasuke{
+
+#fotosasuke {
     display: none;
 }
-body{
+
+body {
     font-size: 1em;
     background-color: rgb(29, 29, 29);
     color: white;
 }
-main{
+
+main {
     background-color: rgb(29, 29, 29);
 }
+
 .main-wallpaper {
     margin-bottom: 50px;
 }
-.main-wallpaper h2,h3{
+
+.main-wallpaper h2,
+h3 {
     text-align: center;
 }
-.main-wallpaper > h2{
+
+.main-wallpaper>h2 {
     color: #FF6F00;
     margin: 40px 0px;
 }
-.main-wallpaper > h3{
+
+.main-wallpaper>h3 {
     margin: 10px 0px 40px 0px;
 }
-.flex-wall{
+
+.flex-wall {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 
 }
-.momentos{
+
+.momentos {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -466,12 +570,14 @@ main{
     margin: 20px;
 
 }
-.momentos > img{
+
+.momentos>img {
     width: 100%;
     border: 1px solid #005CB2;
     border-radius: 12px;
 }
-.botao{
+
+.botao {
     height: 70px;
     display: flex;
     justify-content: center;
@@ -483,15 +589,65 @@ main{
     cursor: pointer;
 }
 
-#netflix{
+#netflix {
     background-color: black;
 }
-#crun{
+
+#crun {
     background-color: white;
     margin-right: 10px;
 }
-.botao > a > img{
+
+.botao>a>img {
     width: 100%;
     height: 60px;
 }
 
+.animation {
+    animation: left 2s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 70%;
+}
+
+.imagem-3d {
+    position: relative;
+    perspective: 1000px;
+    /* Ajuste a profundidade da perspectiva conforme necessário */
+}
+
+.imagem-3d img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    /* Adiciona uma transição suave para o efeito 3D */
+}
+
+.imagem-3d:hover img {
+    transform: rotateY(180deg);
+    /* Ajuste o ângulo conforme necessário para o efeito desejado */
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes top {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

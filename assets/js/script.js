@@ -50,7 +50,7 @@ function rolar() {
 
 document.addEventListener('scroll', rolar);
 
-document.querySelector('.btn-topo').addEventListener('click',() => location.href = "#")
+document.querySelector('.btn-topo').addEventListener('click', () => location.href = "#")
 
 
 cardNaruto.addEventListener('click', function () {
@@ -69,7 +69,7 @@ cardNaruto.addEventListener('click', function () {
     corpo.classList.remove('kakashi');
     corpo.classList.remove('madara');
     corpo.classList.remove('minato');
-    corpo.classList.add('naruto'); 
+    corpo.classList.add('naruto');
 })
 cardSasuke.addEventListener('click', function () {
     img.setAttribute('src', 'assets/images/SASUKE-CORPOCOMPLETO.webp');

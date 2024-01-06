@@ -1,149 +1,189 @@
-@media screen and (min-width:768px){
-    body{
+@media screen and (min-width:768px) {
+    body {
         font-size: 1em;
     }
-    main{
+
+    main {
         background-color: rgb(29, 29, 29);
     }
-    .main-lutas{
+
+    .main-lutas {
         padding: 1.5rem;
     }
-    .main-assistir{
+
+    .main-assistir {
         padding: 1.5rem;
     }
-    .main-arcos{
+
+    .main-arcos {
         padding: 1.5rem;
     }
-    #hero-flex{
+
+    #hero-flex {
         width: 50%;
     }
-    #hero-flex > img{
+
+    #hero-flex>img {
         width: 70%;
     }
-    #hero-flex > button{
+
+    #hero-flex>button {
         margin-top: 5px;
     }
-    .flex-container{
+
+    .flex-container {
         justify-content: space-between;
         margin: 0 20px;
     }
-    .flex-container > img{
+
+    .flex-container>img {
         width: 30%;
         object-fit: cover;
     }
-    .flex-container > article{
+
+    .flex-container>article {
         margin-top: 15px;
         width: 30%;
     }
-    .flex-container-ass > img{
+
+    .flex-container-ass>img {
         width: 50%;
         height: 400px;
         object-fit: contain;
     }
-    .flex > a > img{
+
+    .flex>a>img {
         width: 40%;
     }
-    .flex-container-perso{
+
+    .flex-container-perso {
         justify-content: center;
     }
-    .flex-container-perso > div{
+
+    .flex-container-perso>div {
         width: 12%;
     }
-    .fim-personagens{
+
+    .fim-personagens {
         height: 400px;
     }
-    #container-personagem{
+
+    #container-personagem {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 0;
         margin-top: 0;
     }
-    #container-personagem > img{
+
+    #container-personagem>img {
         padding: 50px;
         font-size: 0.8em;
     }
-    #personagem{
+
+    #personagem {
         width: 400px;
         height: 400px;
         object-fit: contain;
     }
-    .naruto{
+
+    .naruto {
         background-image: none;
     }
-    .sasuke{
+
+    .sasuke {
         background-image: none;
     }
-    .sakura{
+
+    .sakura {
         background-image: none;
     }
-    .kakashi{
+
+    .kakashi {
         background-image: none;
     }
-    .madara{
+
+    .madara {
         background-image: none;
     }
-    .minato{
+
+    .minato {
         background-image: none;
     }
-    .fim-personagens{
+
+    .fim-personagens {
         background-color: #FF6F00;
         height: 100px;
     }
-    .desc-personagem{
+
+    .desc-personagem {
         margin-top: 0;
     }
-    #container-personagem > article > h2{
+
+    #container-personagem>article>h2 {
         color: #FF6F00;
     }
-    .flex-container-arcos{
-        justify-content:center ;
+
+    .flex-container-arcos {
+        justify-content: center;
     }
-    .card{
+
+    .card {
         display: flex;
         align-items: center;
     }
-    .arco{
+
+    .arco {
         width: 45%;
     }
-    .arcon{
+
+    .arcon {
         width: 45%;
     }
-    .nav-bar > span{
+
+    .nav-bar>span {
         display: none;
     }
-    .overlay{
+
+    .overlay {
         display: block;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    .menu > a{
+
+    .menu>a {
         margin: 0px 10px;
         text-decoration: none;
         color: white;
         transition: all 0.5s;
     }
-    .menu > a:hover{
+
+    .menu>a:hover {
         color: #FF6F00;
     }
-    .fim-personagens{
+
+    .fim-personagens {
         color: black;
     }
-    #container-personagem{
+
+    #container-personagem {
         background-color: white;
         color: black;
     }
-    #fotosasuke{
+
+    #fotosasuke {
         display: block;
     }
-    .momentos{
+
+    .momentos {
         width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 20px;
-    
+
     }
 
 }
